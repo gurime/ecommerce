@@ -1,0 +1,34 @@
+.music-brand{
+    grid-area: main;
+background-image: url(../img/music-brand.png);  
+  background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    }
+
+
+    @media(max-width:1000px){
+        .music-brand{
+            height: 500px;
+        }
+    }
+    
+    @media(max-width:650px){
+        .music-brand{
+            height: 450px;
+        }
+    }
+    
+    @media(max-width:500px){
+        .music-brand{
+            height: 250px;
+        }
+    }
+    
+    @media(max-width:415px){
+    .music-brand {
+    height: 124px !important;
+    margin: auto;
+    width: 70%;
+    }}

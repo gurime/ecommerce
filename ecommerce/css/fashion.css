@@ -1,0 +1,35 @@
+.fashion-brand{
+    grid-area: main;
+background-image: url(../img/fashion-brand.png);  
+  background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    }
+
+
+    
+    @media(max-width:1000px){
+        .fashion-brand{
+            height: 500px;
+        }
+    }
+    
+    @media(max-width:650px){
+        .fashion-brand{
+            height: 450px;
+        }
+    }
+    
+    @media(max-width:500px){
+        .fashion-brand{
+            height: 250px;
+        }
+    }
+    
+    @media(max-width:415px){
+    .fashion-brand {
+    height: 124px !important;
+    margin: auto;
+    width: 70%;
+    }}

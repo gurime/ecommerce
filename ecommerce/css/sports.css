@@ -1,0 +1,34 @@
+.sports-brand{
+    grid-area: main;
+background-image: url(../img/sports-brand.png);  
+  background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    }
+
+
+    @media(max-width:1000px){
+        .sports-brand{
+            height: 500px;
+        }
+    }
+    
+    @media(max-width:650px){
+        .sports-brand{
+            height: 450px;
+        }
+    }
+    
+    @media(max-width:500px){
+        .sports-brand{
+            height: 250px;
+        }
+    }
+    
+    @media(max-width:415px){
+    .sports-brand {
+    height: 124px !important;
+    margin: auto;
+    width: 70%;
+    }}
